@@ -7,9 +7,13 @@ First, change your values in pkg/common.go
 
 **This repository deletes all repositories and blobstores.**
 
-Create blobstores for each repository.
+Then, Creates blobstores for each repository.
 
-Creating repositories are as follows;
+```
+go run .
+```
+
+Creatable repositories are as follows;
 
 * Docker Group
   * Docker Hosted
@@ -20,5 +24,3 @@ Creating repositories are as follows;
   * Nuget Hosted
   * Nuget Proxy - nuget.devexpress.com
   * Nuget Proxy - nuget.org
-
-This project uses [Golang Nexus Client](https://pkg.go.dev/github.com/datadrivers/go-nexus-client)
