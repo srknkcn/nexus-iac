@@ -170,7 +170,7 @@ func CreateRepositoryNugetProxyDevExpressCom(c *nexus.NexusClient, name string) 
 			QueryCacheItemMaxAge: 3600,
 		},
 		Proxy: repository.Proxy{
-			RemoteURL:      devExpressNugetV2Url,
+			RemoteURL:      devExpressNugetV3Url,
 			ContentMaxAge:  1440,
 			MetadataMaxAge: 1440,
 		},

@@ -28,5 +28,5 @@ const (
 	// DevExpress Nuget V3 Proxy
 	// https://nuget.devexpress.com/
 	// Login Credentials
-	devExpressNugetV2Url = "https://nuget.devexpress.com/FINDYOURNUGETAPIKEYFROMYOURACCOUNTNNNNNNNNNNNNNNNN/api/v3/index.json"
+	devExpressNugetV3Url = "https://nuget.devexpress.com/FINDYOURNUGETAPIKEYFROMYOURACCOUNTNNNNNNNNNNNNNNNN/api/v3/index.json"
 )
