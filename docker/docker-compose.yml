@@ -1,0 +1,8 @@
+services:
+  nexus-oss:
+    image: "sonatype/nexus3"
+    user: "${UID}:${GID}"
+    ports:
+      - "8081:8081"
+    volumes:
+      - "./oss-nexus.properties:/nexus-data/etc/nexus.properties:ro"
