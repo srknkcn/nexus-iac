@@ -3,9 +3,10 @@
 Configure your Nexus repository with Infrastructure As Code (IAC)
 
 All blobstores and repositories are created and configured by iac.
+
 First, change your values in pkg/common.go
 
-**This repository deletes all repositories and blobstores.**
+**This repository deletes all repositories and blobstores!!!**
 
 Then, Creates blobstores for each repository.
 
